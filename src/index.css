@@ -12,22 +12,11 @@
         @apply px-4;
         @apply cursor-pointer
     }
-    .background-animate {
-        background-size: 400% 400%;
-        animation : gradient 15s ease infinite;
+    .bg-gradient  {
+        background: linear-gradient(-45deg, #CE6A6B, #EBACA2, #BED3C3, #4A919E, #212E53);     
     }
-
-    @keyframes gradient {
-        0% {
-            background-position: 0% 50%;
-        }
-    
-        50% {
-            background-position: 100% 50%;
-        }
-    
-        100% {
-            background-position: 0% 50%;
-        }
-    }
+        
+  
 }
+
+

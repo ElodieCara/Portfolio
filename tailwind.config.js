@@ -6,41 +6,24 @@ module.exports = {
   theme: {
     extend: {
       'animation': {
-        'gradient-x': 'gradient-x 15s ease infinite',
-        'gradient-y': 'gradient-y 15s ease infinite',
-        'gradient-xy': 'gradient-xy 15s ease infinite',
+        'gradient': 'gradient 15s ease infinite',
       },
       'keyframes': {
-        'gradient-y': {
-          '0%, 100%': {
+        'gradient': {
+          '0%': {
             'background-size': '400% 400%',
-            'background-position': 'center top'
+            'background-position': '0% 50%'
           },
           '50%': {
-            'background-size': '200% 200%',
-            'background-position': 'center center'
+            'background-size': '400% 400%',
+            'background-position': ' 100% 50%'
+          },
+
+          '100%': {
+            'background-size': '400% 400%',
+            'background-position': '0% 50%'
           }
         },
-        'gradient-x': {
-          '0%, 100%': {
-            'background-size': '200% 200%',
-            'background-position': 'left center'
-          },
-          '50%': {
-            'background-size': '200% 200%',
-            'background-position': 'right center'
-          }
-        },
-        'gradient-xy': {
-          '0%, 100%': {
-            'background-size': '400% 400%',
-            'background-position': 'left center'
-          },
-          '50%': {
-            'background-size': '200% 200%',
-            'background-position': 'right center'
-          }
-        }
       }
     },
   },

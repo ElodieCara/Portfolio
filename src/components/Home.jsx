@@ -3,8 +3,24 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 
 const Home = () => {
     return (
-        <div className='w-full h-screen flex items-center justify-center overflow-hidden
-        bg-gradient animate-gradient'>
+        <div name='home' className='w-full h-screen flex items-center justify-center overflow-auto
+        '>
+
+            {/* Container */}
+            <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+                <p className=' text-white'>Bonjour, je suis </p>
+                <h1 className='text-2xl sm:text-7xl font-bold text-shadow text-white'>Elodie Caradeuc</h1>
+                <h2 className='text-shadow text-2xl sm:text-3xl  font-bold text-[#8892b0]'>Je suis un développeur, intégrateur web Junior</h2>
+                <p className='font-bold text-[#666f88] py-4 max-w-[700px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in eros elit. Nulla suscipit turpis quis leo maximus volutpat. Quisque in imperdiet nisi. Phasellus a massa ante. Cras eget semper justo, et finibus tortor. Donec nec nisi non leo venenatis varius sit amet porttitor lorem. Pellentesque malesuada dolor eu eleifend ullamcorper.</p>
+                <div>
+                    <button className='text-shadow text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#494E5F] hover:border-[#494E5F]'>
+                        View Work
+                        <span className='group-hover:rotate-90 duration-300'>
+                            <HiArrowNarrowRight className='ml-3' />
+                        </span>
+                    </button>
+                </div>
+            </div>
 
         </div>
     );

@@ -4,7 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
+
 @layer base {
+
+--text:#a8b0cb; /* Grey */
+--shadow:#8892b0; /* White */
+
     body {
         @apply font-[Raleway];
     }
@@ -15,8 +20,10 @@
     .bg-gradient  {
         background: linear-gradient(-45deg, #CE6A6B, #EBACA2, #BED3C3, #4A919E, #212E53);     
     }
-        
-  
+
+    .text-shadow {
+        text-shadow: 0 0 0.5em #e5e7eb;
+    }
 }
 
 

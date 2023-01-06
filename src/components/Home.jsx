@@ -11,7 +11,7 @@ const Home = () => {
                 <p className=' text-white'>Bonjour, je suis </p>
                 <h1 className='text-2xl sm:text-7xl font-bold text-shadow text-white'>Elodie Caradeuc</h1>
                 <h2 className='text-shadow text-2xl sm:text-3xl  font-bold text-[#8892b0]'>Je suis un développeur, intégrateur web Junior</h2>
-                <p className='font-bold text-[#666f88] py-4 max-w-[700px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in eros elit. Nulla suscipit turpis quis leo maximus volutpat. Quisque in imperdiet nisi. Phasellus a massa ante. Cras eget semper justo, et finibus tortor. Donec nec nisi non leo venenatis varius sit amet porttitor lorem. Pellentesque malesuada dolor eu eleifend ullamcorper.</p>
+                <p className='font-bold text-[#666f88] py-4 max-w-[700px]'>Je viens de terminer ma formation de Développeuse Intégrateur Web chez OpenClassrooms et je suis à la recherche d'un poste comme développeuse Web.</p>
                 <div>
                     <button className='text-shadow text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#494E5F] hover:border-[#494E5F]'>
                         View Work

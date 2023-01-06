@@ -14,44 +14,77 @@ const Skills = () => {
     return (
         <div name='skills' className='w-full h-full  text-[#666f88]'>
             {/* Container */}
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full gap-8'>
                 <div>
                     <p className='text-4xl font-bold inline border-b-4 border-white '>Skills</p>
                     <p className='py-4'>These are the technologies I've worked with</p>
                 </div>
 
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-                        <p className='my-4'>HTML</p>
+                    {/* <div className='relative flex justify-center items-center flex-wrap py-50 gap-4'> */}
+                    <div className='splash'>
+                        <div className="content">
+                            <div className="icone">
+                                <img className='w-10 mx-auto py-4' src={HTML} alt="HTML icon" />
+                            </div>
+                            <p className='my-2 bg-[#FF3D12]'>HTML</p>
+                        </div>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={CSS} alt="HTML icon" />
-                        <p className='my-4'>CSS</p>
+                    <div className='splash'>
+                        <div className="content">
+                            <div className="icone">
+                                <img className='w-10 mx-auto py-4' src={CSS} alt="CSS icon" />
+                            </div>
+                            <p className='my-4 bg-blue-800'>CSS</p>
+                        </div>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
-                        <p className='my-4'>JAVASCRIPT</p>
+                    <div className='splash'>
+                        <div className="content">
+                            <div className="icone">
+                                <img className='w-10 mx-auto py-4' src={JavaScript} alt="JavaScript icon" />
+                            </div>
+                            <p className='my-4 bg-yellow-400'>JAVASCRIPT</p>
+                        </div>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
-                        <p className='my-4'>REACT</p>
+                    <div className='splash'>
+                        <div className="content">
+                            <div className="icone">
+                                <img className='w-10 mx-auto py-4' src={ReactImg} alt="React icon" />
+                            </div>
+                            <p className='my-4 bg-blue-400'>REACT</p>
+                        </div>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
-                        <p className='my-4'>GITHUB</p>
+                    <div className='splash'>
+                        <div className="content">
+                            <div className="icone">
+                                <img className='w-10 py-4 invert' src={GitHub} alt="Github icon" />
+                            </div>
+                            <p className='my-4 bg-black'>GITHUB</p>
+                        </div>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
-                        <p className='my-4'>NODE JS</p>
+                    <div className='splash'>
+                        <div className="content">
+                            <div className="icone">
+                                <img className='w-10 mx-auto py-4' src={Node} alt="Node JS icon" />
+                            </div>
+                            <p className='my-4 bg-green-500'>NODE JS</p>
+                        </div>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
-                        <p className='my-4'>MONGO DB</p>
+                    <div className='splash'>
+                        <div className="content">
+                            <div className="icone">
+                                <img className='w-10 mx-auto py-4' src={Mongo} alt="Mongodb icon" />
+                            </div>
+                            <p className='my-4 bg-green-800'>MONGO DB</p>
+                        </div>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
-                        <p className='my-4'>TAILWIND</p>
+                    <div className='splash'>
+                        <div className="content">
+                            <div className="icone">
+                                <img className='w-10 mx-auto py-4' src={Tailwind} alt="tailwind icon" />
+                            </div>
+                            <p className='my-4 bg-blue-300'>TAILWIND</p>
+                        </div>
                     </div>
                     {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={FireBase} alt="HTML icon" />

@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      filter: {
+        'invert': 'invert(1)'
+      },
       'animation': {
         'gradient': 'gradient 15s ease infinite',
       },
@@ -27,5 +30,6 @@ module.exports = {
       }
     },
   },
+  variants: {},
   plugins: [],
 }

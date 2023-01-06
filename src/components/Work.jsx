@@ -10,7 +10,7 @@ const Work = () => {
 
     return (
         <div name='work' className='w-full h-full text-[#666f88]'>
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+            <div className='max-w-[1000px] mx-auto py-8 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-white'>
                         Work
@@ -26,11 +26,11 @@ const Work = () => {
                         <div
                             key={index}
                             style={{ backgroundImage: `url(${item.image})` }}
-                            className="bg-no-repeat bg-white bg-center  shadow-lg shadow-[#040c16] rounded-md group container flex justify-center text-center items-center mx-auto content-div"
+                            className="h-64 bg-no-repeat bg-white bg-center  shadow-lg shadow-[#040c16] rounded-md group container flex justify-center text-center items-center mx-auto content-div"
 
                         >
                             {/* Hover effect for images */}
-                            <div className=" opacity-0 group-hover:opacity-100 cover bg-size-cover bg-[#666f88] h-full w-full">
+                            <div className="opacity-0 group-hover:opacity-100 cover bg-size-cover bg-[#666f88] rounded-md h-full w-full text flex flex-col items-center justify-center">
                                 <span className="text-2xl font bold text-white tracking-wider ">
                                     {item.name}
                                 </span>

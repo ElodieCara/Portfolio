@@ -1,3 +1,5 @@
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
@@ -9,12 +11,14 @@ import Work from "./components/Work";
 function App() {
   return (
     <div className="bg-gradient animate-gradient">
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Work />
-      <Contact />
+      <BrowserRouter>
+        <Navbar />
+        <Home />
+        <About />
+        <Skills />
+        <Work />
+        <Contact />
+      </BrowserRouter>
     </div>
   );
 }

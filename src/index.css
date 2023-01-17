@@ -29,9 +29,14 @@
         text-shadow: 0 0 0.5em #e5e7eb;
     }
 
+    .items-center {
+        justify-items: center;
+    }
+
     .splash {
         position: relative;
-        width: 150px;
+        width: 100%;
+        max-width: 150px;
         height: 150px;
         box-shadow: inset 20px 20px 20px rgba(0,0,0,0.05),
         25px 35px 20px rgba(0,0,0,0.05),
@@ -45,20 +50,20 @@
     }
 
     .splash:nth-child(1),
-    .splash:nth-child(5)
+    .splash:nth-child(6)
      {
         border-radius: 47% 53% 70% 30% / 30% 43% 57% 70%;
     }
     .splash:nth-child(2),
-    .splash:nth-child(6) {
+    .splash:nth-child(8) {
         border-radius: 64% 36% 77% 23% / 70% 62% 38% 30%;
     }
     .splash:nth-child(3),
-    .splash:nth-child(7) {
+    .splash:nth-child(5) {
         border-radius: 35% 65% 31% 69% / 57% 59% 41% 43%;
     }
     .splash:nth-child(4),
-    .splash:nth-child(8) {
+    .splash:nth-child(7) {
         border-radius: 19% 81% 24% 76% / 73% 68% 32% 27%;
     }
 
@@ -146,18 +151,12 @@
     }
 
     .card {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: rgba(255,0,0,1);
+   
+   
+    background: rgba(255,255,255,0.5);
     backdrop-filter: blur(20px);
-    height: calc(100% - 20px);
-    width: calc(100% - 20px);
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+    
+    
     border-radius: 20px;
     border: 1px solid rgba(255,255,255,0.2);
     box-shadow: 5px 5px 30px rgba(0,0,0,0.1);

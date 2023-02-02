@@ -38,6 +38,7 @@
         width: 100%;
         max-width: 150px;
         height: 150px;
+        border-radius: 50%;
         box-shadow: inset 20px 20px 20px rgba(0,0,0,0.05),
         25px 35px 20px rgba(0,0,0,0.05),
         25px 30px 30px rgba(0,0,0,0.05),
@@ -49,23 +50,6 @@
         
     }
 
-    .splash:nth-child(1),
-    .splash:nth-child(6)
-     {
-        border-radius: 47% 53% 70% 30% / 30% 43% 57% 70%;
-    }
-    .splash:nth-child(2),
-    .splash:nth-child(8) {
-        border-radius: 64% 36% 77% 23% / 70% 62% 38% 30%;
-    }
-    .splash:nth-child(3),
-    .splash:nth-child(5) {
-        border-radius: 35% 65% 31% 69% / 57% 59% 41% 43%;
-    }
-    .splash:nth-child(4),
-    .splash:nth-child(7) {
-        border-radius: 19% 81% 24% 76% / 73% 68% 32% 27%;
-    }
 
     .splash:hover {
         border-radius: 50%;

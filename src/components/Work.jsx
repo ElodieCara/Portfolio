@@ -3,6 +3,7 @@ import { data } from "../data/data.js";
 import { perso } from "../data/data.js";
 
 
+
 const Work = () => {
 
     // projects file
@@ -48,6 +49,7 @@ const Work = () => {
                                             Code
                                         </button>
                                     </a>
+
                                     {/* eslint-disable-next-line */}
                                     <a href={item.live} target="_blank">
                                         <button
@@ -71,9 +73,8 @@ const Work = () => {
                 </div>
 
                 {/* container for projects */}
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-
-                    {/* Gird Item */}
+                <section className="grid lg:grid-cols-2 2xl:grid-cols-4 grid-cols-1 gap-10 antialiased">
+                    {/* Project Item */}
                     {projectPerso.map((item, index) => (
                         <div
                             key={index}
@@ -96,25 +97,24 @@ const Work = () => {
                                             Code
                                         </button>
                                     </a>
+
                                     {/* eslint-disable-next-line */}
-                                    {/* <p target="_blank">
+                                    {/* <a href={item.live} target="_blank">
                                         <button
                                             className="text-center rounded-lg px-4 py-3 m-2
                                             bg-gradient animate-gradient text-gray-700 font-bold text-lg"
                                         >
-                                            En cours
+                                            Live
                                         </button>
-                                    </p> */}
+                                    </a> */}
                                 </div>
                             </div>
                         </div>
-                    ))}
 
-
-                </div>
-
-
-            </div>
+                    ))
+                    }
+                </section >
+            </div >
         </div >
     );
 };

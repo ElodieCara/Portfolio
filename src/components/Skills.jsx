@@ -1,12 +1,10 @@
 import React from 'react';
-
+import Sass from '../assets/sass.png'
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
-// import FireBase from '../assets/firebase.png';
-import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
 
@@ -57,9 +55,9 @@ const Skills = () => {
                     <div className='splash'>
                         <div className="content">
                             <div className="icone">
-                                <img className='w-10 py-4 invert' src={GitHub} alt="Github icon" />
+                                <img className='w-10 py-4 mx-auto' src={Sass} alt="Sass icon" />
                             </div>
-                            <p className='my-4 bg-black'>GITHUB</p>
+                            <p className='my-4 bg-pink-400'>Sass</p>
                         </div>
                     </div>
                     <div className='splash'>

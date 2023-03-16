@@ -13,7 +13,7 @@ const Work = () => {
 
     return (
         <div id='work' className='w-full h-full text-[#666f88]'>
-            <div className='max-w-[1000px] mx-auto p-8 flex flex-col justify-center w-full h-full'>
+            <div className='max-w-[1000px] mx-auto my-20 p-8 flex flex-col justify-center w-full h-full'>
 
                 {/* OpenclassRooms */}
                 <div className='pb-8'>
@@ -73,7 +73,7 @@ const Work = () => {
                 </div>
 
                 {/* container for projects */}
-                <section className="grid lg:grid-cols-2 2xl:grid-cols-4 grid-cols-1 gap-10 antialiased">
+                <section className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 pb-8">
                     {/* Project Item */}
                     {projectPerso.map((item, index) => (
                         <div
